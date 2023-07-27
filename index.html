@@ -61,6 +61,7 @@
     </style>
   </head>
   <body>
+    <!-- header -->
     <header class="container mx-auto">
       <!-- navbar -->
       <nav
@@ -89,7 +90,7 @@
               <label tabindex="0" class="btn btn-ghost btn-circle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  class="h-7 w-7"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -104,12 +105,16 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu dropdown-content mt-3 z-[1] p-0 shadow bg-base-100 w-20 sm:w-24 md:w-36 text-white lg:text-lg font-medium bg-primary-color"
+            class="menu dropdown-content mt-3 z-[1] p-0 shadow bg-[primary-color] w-20 sm:w-24 md:w-36 text-white lg:text-lg font-medium bg-primary-color "
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
                 <li><a>All Fruits</a></li>
+                <input type="text" placeholder="Search..." class="w-full p-1 border-none focus:outline-none box-border rounded-full mb-2">
+                <div class="flex justify-end ">
+                  <i class="fa-solid fa-magnifying-glass text-[#222121] relative -top-7 -left-4 hidden md:flex "></i>
+                </div>
               </ul>
             </div>
           </div>
@@ -132,7 +137,7 @@
           <div id="slide1" class="carousel-item relative w-full">
             <!-- slider content -->
             <div
-              class="absolute text-center space-y-2 md:space-y-7 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
+              class="absolute text-center space-y-2 md:space-y-8 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
             >
               <h1
                 class="text-white text-2xl md:text-4xl lg:text-7xl font-extrabold"
@@ -145,7 +150,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="md:text-lg text-base text-white px-3 py-2 rounded-md bg-primary-color border-none hover:text-primary-color hover:bg-[primary-color]"
+                class="md:text-lg text-base text-white px-5 py-2 rounded-md bg-primary-color border-none hover:bg-[#e64d80]"
               >
                 Shop Now
               </button>
@@ -172,7 +177,7 @@
           <div id="slide2" class="carousel-item relative w-full">
             <!-- slider content -->
             <div
-              class="absolute text-center space-y-2 md:space-y-7 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
+              class="absolute text-center space-y-2 md:space-y-8 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
             >
               <h1
                 class="text-white text-2xl md:text-4xl lg:text-7xl font-extrabold"
@@ -185,7 +190,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="md:text-lg text-base text-white px-3 py-2 rounded-md bg-primary-color border-none hover:text-primary-color hover:bg-[primary-color]"
+              class="md:text-lg text-base text-white px-5 py-2 rounded-md bg-primary-color border-none hover:bg-[#e64d80]"
               >
                 Shop Now
               </button>
@@ -212,7 +217,7 @@
           <div id="slide3" class="carousel-item relative w-full">
             <!-- slider content -->
             <div
-              class="absolute text-center space-y-2 md:space-y-7 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
+              class="absolute text-center space-y-2 md:space-y-8 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
             >
               <h1
                 class="text-white text-2xl md:text-4xl lg:text-7xl font-extrabold"
@@ -225,7 +230,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="md:text-lg text-base text-white px-3 py-2 rounded-md bg-primary-color border-none hover:text-primary-color hover:bg-[primary-color]"
+              class="md:text-lg text-base text-white px-5 py-2 rounded-md bg-primary-color border-none hover:bg-[#e64d80]"
               >
                 Shop Now
               </button>
@@ -252,7 +257,7 @@
           <div id="slide4" class="carousel-item relative w-full">
             <!-- slider content -->
             <div
-              class="absolute text-center space-y-2 md:space-y-7 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
+              class="absolute text-center space-y-2 md:space-y-8 h-full w-full top-0 left-0 bg-linear pt-4 md:pt-14 lg:pt-20"
             >
               <h1
                 class="text-white text-2xl md:text-4xl lg:text-7xl font-extrabold"
@@ -265,7 +270,7 @@
                 We supply highly quality organic products
               </p>
               <button
-                class="md:text-lg text-base text-white px-3 py-2 rounded-md bg-primary-color border-none hover:text-primary-color hover:bg-[primary-color]"
+              class="md:text-lg text-base text-white px-5 py-2 rounded-md bg-primary-color border-none hover:bg-[#e64d80]"
               >
                 Shop Now
               </button>
@@ -291,7 +296,7 @@
           </div>
         </div>
         <!-- fruits container -->
-        <div class="hidden justify-between bg-white w-[1196px] px-16 py-12 mx-auto rounded-lg relative -top-32 shadow-md lg:flex">
+        <div class="hidden justify-between bg-white w-[1196px] px-16 py-12 mx-auto rounded-lg relative -top-32 shadow-md xl:flex">
           <div>
             <img src="./images/fruit1.png" alt="">
             <p class="text-[#1d1d1d] text-xl font-medium text-center">Strawberry</p>
@@ -316,7 +321,7 @@
          
       </section>
     </header>
-
+    <!-- main section -->
     <main class="container mx-auto">
       <!--Deal section  -->
       <section class="mt-32 mb-32">
@@ -857,7 +862,7 @@
           <!-- button -->
           <div class="flex justify-center">
             <button
-              class="md:text-lg text-base text-white px-6 py-4 rounded-md bg-primary-color border-none hover:text-primary-color hover:bg-[primary-color]"
+              class="md:text-lg text-base text-white px-6 py-4 rounded-md bg-primary-color border-none hover:bg-[primary-color]"
             >
               Shop All
             </button>
@@ -890,7 +895,7 @@
                   <div class="card-body text-white ">
                     <h2 class="card-title">Awlad Hossain</h2>
                     <p>Fruits Expert</p>
-                    <div>
+                    <div class="space-x-2">
                       <i class="fa-brands fa-facebook  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-twitter  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-instagram  text-white  bg-primary-color p-1 rounded-full"></i>
@@ -903,7 +908,7 @@
                   <div class="card-body text-white ">
                     <h2 class="card-title">Safia Chowdhury</h2>
                     <p>Fruits Expert</p>
-                    <div>
+                    <div class="space-x-2">
                       <i class="fa-brands fa-facebook  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-twitter  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-instagram  text-white  bg-primary-color p-1 rounded-full"></i>
@@ -916,7 +921,7 @@
                   <div class="card-body text-white ">
                     <h2 class="card-title">Rokib Hossain</h2>
                     <p>Fruits Expert</p>
-                    <div>
+                    <div class="space-x-2">
                       <i class="fa-brands fa-facebook  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-twitter  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-instagram  text-white  bg-primary-color p-1 rounded-full"></i>
@@ -929,7 +934,7 @@
                   <div class="card-body text-white ">
                     <h2 class="text-xl font-bold text-center">Chaity</h2>
                     <p>Fruits Expert</p>
-                    <div>
+                    <div class="space-x-2">
                       <i class="fa-brands fa-facebook  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-twitter  text-white  bg-primary-color p-1 rounded-full"></i>
                       <i class="fa-brands fa-instagram  text-white  bg-primary-color p-1 rounded-full"></i>
@@ -1037,6 +1042,7 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
     <footer class="footer footer-center p-10 bg-[#121212]">
       <!-- logo part -->
       <div class="flex cursor-pointer">
@@ -1046,13 +1052,13 @@
         </h2>
       </div> 
       <!-- links part -->
-      <div class="flex lg:gap-12 gap-3 flex-col lg:flex-row text-white font-medium cursor-pointer">  
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Shop</p>
-        <p>All Fruits</p>
-        <p>Support</p>
-        <p>My Account</p>
+      <div class="flex gap-12 justify-center flex-wrap text-white">  
+        <p class="text-base font-medium cursor-pointer">Home</p>
+        <p class="text-base font-medium cursor-pointer">About Us</p>
+        <p class="text-base font-medium cursor-pointer">Shop</p>
+        <p class="text-base font-medium cursor-pointer">All Fruits</p>
+        <p class="text-base font-medium cursor-pointer">Support</p>
+        <p class="text-base font-medium cursor-pointer">My Account</p>
       </div>
       <!-- social icons part -->
       <div class="flex text-2xl gap-5 text-white">
